@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80%;
+  height: auto;
+}
+
+.row {
+}
+
+.form {
+  margin: 0 auto;
+  /* background-color:darkkhaki; */
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
