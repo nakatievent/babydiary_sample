@@ -19,15 +19,36 @@
   <div class="container">
     <div class="row">
       <div class="form col-md-8">
-
+        <h1 class="text-center">日記を追加する</h1>
+        <br>
+        <form>
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="form-group">
+            <label for="diary_title" class="form-label">タイトル</label>
+            <input type="text" class="form-control" id="diary_title" aria-describedby="emailHelp">
+          </div>
+          <br>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">日記</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+          </div>
+          <br>
+          <div class="signup-btn d-grid gap-2">
+            <button type="submit" class="btn btn-primary">日記を投稿する</button>
+          </div>
+        </form>
+        </h1>
       </div>
     </div>
   </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
 </body>
 
